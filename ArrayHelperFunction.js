@@ -57,4 +57,10 @@ console.log(b);
  let index = flowers.indexOf('lili');
  console.log(index);
 
+ //split
+let names = 'Bilbo, Gandalf, Nazgul';
+let arr = names.split(', ');
+for (let name of arr) {
+  alert( `A message to ${name}.` ); // A message to Bilbo  (and other names)
+}
 
